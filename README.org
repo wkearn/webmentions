@@ -1,0 +1,7 @@
+# Webmentions in Emacs
+
+This is a bare-bones implementation of webmention sending from within Emacs. The main interface is through the function ~(webmention-send-post SOURCE TARGET)~, which will send a webmention from the SOURCE url to the TARGET via the endpoint discovered automatically at the TARGET url. This function can be called interactively to send webmentions manually.
+
+I use this alongside a custom org-mode publishing configuration to send webmentions for my site, [[https://www.wskearney.com]]. The implementation passes the endpoint discovery tests at https://webmention.rocks/, but please let me know via an issue if you notice any problems with discovery or sending webmentions.
+
+I am not by any means a proficient Emacs Lisp programmer, so please forgive any stylistic lapses. This code is provided under the MIT License: feel free to use and modify as you see fit.
