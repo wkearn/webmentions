@@ -99,7 +99,7 @@ The data returned by the endpoint is displayed in a new buffer."
 				 "&"
 				 "target="
 				 target)))
-	  (switch-to-buffer-other-window (url-retrieve-synchronously endpoint)))
+	  (display-buffer (url-retrieve-synchronously endpoint)))
       (message "Endpoint does not exist for target %s" target))))
 
 (provide 'webmention)
