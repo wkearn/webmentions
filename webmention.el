@@ -1,4 +1,4 @@
-;;; webmentions.el -- Webmention sending from Emacs
+;;; webmention.el -- Webmention sending from Emacs
 
 ;; Copyright (C) 2022 William Kearney
 ;; Permission is hereby granted, free of charge, to any person
